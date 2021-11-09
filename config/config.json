@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "coachmark-application-customizer": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/coachmark/CoachmarkApplicationCustomizer.js",
+          "manifest": "./src/extensions/coachmark/CoachmarkApplicationCustomizer.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "CoachmarkApplicationCustomizerStrings": "lib/extensions/coachmark/loc/{locale}.js"
+  }
+}
